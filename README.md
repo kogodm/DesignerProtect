@@ -7,7 +7,7 @@ auto save photoshop,sai,sa2 editing files,only save *.psd file
 - 入口是`app=newPhotoShop.ApplicationClass.ApplicationClass()`
 - 调用 `app.Documents[index].SaveAs()`将打开的文档另存到备份目录
 - PhotoShop的库文件在Ps安装目录下：
-    - <Ps安装目录>\TypeLibrary.tlb\TypeLibrary.tlb
+    - <Ps安装目录>\TypeLibrary.tlb
     - <Ps安装目录>\Required\Plug-Ins\Extensions\ScriptingSupport.8li
 
 #sai && sai2
