@@ -1,0 +1,26 @@
+Not same:11484 -1
+Attempting to inject into process 11484
+FileMonitor has injected FileMonitorHook into process 11484.
+
+MoveFileW hooks installed
+Send save message
+GETATTRA|C:\ProgramData\SYSTEMAX Software Development\SAI\thumbnail\00000005.ssd
+GETATTRA|C:\ProgramData\SYSTEMAX Software Development\SAI\thumbnail\00000005.ssd
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+Send save message
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\psd8708.tmp
+MOVEA|C:\Users\kogod\Pictures\test\psd8708.tmp|C:\Users\kogod\Pictures\test\233333333.psd
+Send save message
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\psd8E7B.tmp
+MOVEA|C:\Users\kogod\Pictures\test\psd8E7B.tmp|C:\Users\kogod\Pictures\test\233333333.psd
+Send save message
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\233333333.psd
+GETATTRA|C:\Users\kogod\Pictures\test\psd9DCE.tmp
+MOVEA|C:\Users\kogod\Pictures\test\psd9DCE.tmp|C:\Users\kogod\Pictures\test\233333333.psd
+Send save message
+Send save message

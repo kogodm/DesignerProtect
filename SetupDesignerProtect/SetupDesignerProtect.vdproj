@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_04462C23C34840B99B5CDE5C19271753"
+        "MsmKey" = "8:_0CECECD1F3B94416B917EAB243E96A1F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0F8517960F1A40D4BEA0F9E60BC710CB"
+        "MsmKey" = "8:_1CAF3CDCC3D24F62896515EE33FB2D9D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2439475F83CB407A9C999E4A6C569FDA"
+        "MsmKey" = "8:_25ED070B7A99437A881774261958F244"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,72 +40,66 @@
         "Entry"
         {
         "MsmKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
-        "OwnerKey" = "8:_9C6D1AFAF3F14EEDA1508D57B5BF7D66"
+        "OwnerKey" = "8:_1CAF3CDCC3D24F62896515EE33FB2D9D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
-        "OwnerKey" = "8:_823271819E22483DA7C03EFFC426C71A"
+        "OwnerKey" = "8:_7F90C8454411404A9329266CD56F275F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
-        "OwnerKey" = "8:_7F5B95EA765848A386F8455776CC4D8D"
+        "OwnerKey" = "8:_D30A787A1AB14D169675AF5892F5188D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
-        "OwnerKey" = "8:_04462C23C34840B99B5CDE5C19271753"
+        "OwnerKey" = "8:_7B9A38DD2C9E4DCCB143396C47F0BD18"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
-        "OwnerKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
+        "OwnerKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_3B64EFB009E95DC8E13E972466FD24E5"
+        "OwnerKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6833424CE5B348559B719B5A9F9E2447"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_6ED9D5E735DCD6BC7B872784AFF511C3"
+        "OwnerKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_71205516B8E7886B340C662928E5B9D9"
-        "OwnerKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
+        "OwnerKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7A3285AD22EFCC1B25B5F870201D291A"
-        "OwnerKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7F5B95EA765848A386F8455776CC4D8D"
+        "MsmKey" = "8:_7B9A38DD2C9E4DCCB143396C47F0BD18"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_823271819E22483DA7C03EFFC426C71A"
+        "MsmKey" = "8:_7F90C8454411404A9329266CD56F275F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9C6D1AFAF3F14EEDA1508D57B5BF7D66"
+        "MsmKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -118,55 +112,55 @@
         "Entry"
         {
         "MsmKey" = "8:_AE34CC33BDF3D160C85F40C61A42B77E"
-        "OwnerKey" = "8:_E614E1BC165FB692C61396432EF88284"
+        "OwnerKey" = "8:_3B64EFB009E95DC8E13E972466FD24E5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E614E1BC165FB692C61396432EF88284"
-        "OwnerKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
+        "MsmKey" = "8:_B796FA44E2D043E99061344E1E229018"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2E509EEA8CB140EA844005E6E547D441"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9C6D1AFAF3F14EEDA1508D57B5BF7D66"
+        "MsmKey" = "8:_D30A787A1AB14D169675AF5892F5188D"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_823271819E22483DA7C03EFFC426C71A"
+        "OwnerKey" = "8:_3B64EFB009E95DC8E13E972466FD24E5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7F5B95EA765848A386F8455776CC4D8D"
+        "OwnerKey" = "8:_1CAF3CDCC3D24F62896515EE33FB2D9D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_04462C23C34840B99B5CDE5C19271753"
+        "OwnerKey" = "8:_7F90C8454411404A9329266CD56F275F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7A3285AD22EFCC1B25B5F870201D291A"
+        "OwnerKey" = "8:_D30A787A1AB14D169675AF5892F5188D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E614E1BC165FB692C61396432EF88284"
+        "OwnerKey" = "8:_7B9A38DD2C9E4DCCB143396C47F0BD18"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -179,6 +173,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_299F24C4B80F96D27C1EB22D32A36E84"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6ED9D5E735DCD6BC7B872784AFF511C3"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -238,6 +238,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -268,40 +276,9 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_04462C23C34840B99B5CDE5C19271753"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0CECECD1F3B94416B917EAB243E96A1F"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EasyHookSvc, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=4b580fca19d0b0c5, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_04462C23C34840B99B5CDE5C19271753"
-                    {
-                    "Name" = "8:EasyHook64Svc.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyHook64Svc.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F8517960F1A40D4BEA0F9E60BC710CB"
-            {
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyHook.xml"
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyHook.xml"
             "TargetName" = "8:EasyHook.xml"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
@@ -319,10 +296,41 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2439475F83CB407A9C999E4A6C569FDA"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1CAF3CDCC3D24F62896515EE33FB2D9D"
             {
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyHook32.dll"
-            "TargetName" = "8:EasyHook32.dll"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EasyLoad64, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=6491e78701b29b9d, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_1CAF3CDCC3D24F62896515EE33FB2D9D"
+                    {
+                    "Name" = "8:EasyLoad64.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyLoad64.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_25ED070B7A99437A881774261958F244"
+            {
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyHook64.dll"
+            "TargetName" = "8:EasyHook64.dll"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
             "Condition" = "8:"
@@ -370,10 +378,21 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6833424CE5B348559B719B5A9F9E2447"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3B64EFB009E95DC8E13E972466FD24E5"
             {
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyHook64.dll"
-            "TargetName" = "8:EasyHook64.dll"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Interop.Photoshop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3B64EFB009E95DC8E13E972466FD24E5"
+                    {
+                    "Name" = "8:Interop.Photoshop.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Interop.Photoshop.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
             "Condition" = "8:"
@@ -387,7 +406,38 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6ED9D5E735DCD6BC7B872784AFF511C3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Interop.PhotoshopTypeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6ED9D5E735DCD6BC7B872784AFF511C3"
+                    {
+                    "Name" = "8:Interop.PhotoshopTypeLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Interop.PhotoshopTypeLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71205516B8E7886B340C662928E5B9D9"
@@ -421,51 +471,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7A3285AD22EFCC1B25B5F870201D291A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Interop.PhotoshopTypeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_7A3285AD22EFCC1B25B5F870201D291A"
-                    {
-                    "Name" = "8:Interop.PhotoshopTypeLibrary.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Interop.PhotoshopTypeLibrary.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7F5B95EA765848A386F8455776CC4D8D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7B9A38DD2C9E4DCCB143396C47F0BD18"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:EasyHookSvc, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=4b580fca19d0b0c5, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_7F5B95EA765848A386F8455776CC4D8D"
+                    "_7B9A38DD2C9E4DCCB143396C47F0BD18"
                     {
                     "Name" = "8:EasyHook32Svc.exe"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyHook32Svc.exe"
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyHook32Svc.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
@@ -483,51 +502,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_823271819E22483DA7C03EFFC426C71A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7F90C8454411404A9329266CD56F275F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:EasyLoad32, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=6491e78701b29b9d, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_823271819E22483DA7C03EFFC426C71A"
+                    "_7F90C8454411404A9329266CD56F275F"
                     {
                     "Name" = "8:EasyLoad32.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyLoad32.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9C6D1AFAF3F14EEDA1508D57B5BF7D66"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EasyLoad64, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=6491e78701b29b9d, processorArchitecture=AMD64"
-                "ScatterAssemblies"
-                {
-                    "_9C6D1AFAF3F14EEDA1508D57B5BF7D66"
-                    {
-                    "Name" = "8:EasyLoad64.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\bin\\Release\\EasyLoad64.dll"
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyLoad32.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
@@ -585,20 +573,40 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E614E1BC165FB692C61396432EF88284"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B796FA44E2D043E99061344E1E229018"
+            {
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyHook32.dll"
+            "TargetName" = "8:EasyHook32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D30A787A1AB14D169675AF5892F5188D"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Interop.Photoshop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:EasyHookSvc, Version=2.7.6270.0, Culture=neutral, PublicKeyToken=4b580fca19d0b0c5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E614E1BC165FB692C61396432EF88284"
+                    "_D30A787A1AB14D169675AF5892F5188D"
                     {
-                    "Name" = "8:Interop.Photoshop.dll"
+                    "Name" = "8:EasyHook64Svc.exe"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Interop.Photoshop.dll"
+            "SourcePath" = "8:..\\DesignerProtect\\bin\\Debug\\EasyHook64Svc.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
@@ -613,7 +621,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -815,7 +823,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7A370784856445AE9E3F92C9CBAD84D8"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A4CA4957B5E24FE193BDC035CD2B0BB7"
             {
             "Name" = "8:DesignerProtect"
             "Arguments" = "8:"
@@ -823,13 +831,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2E509EEA8CB140EA844005E6E547D441"
-            "Folder" = "8:_0B5FC07572724341831F76909620FDCD"
+            "Target" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
+            "Folder" = "8:_9BB73A4847D7445DA7139686E0A36ACF"
             "WorkingFolder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
             "Icon" = "8:_ACE400981F6B4C1F87DA71652B8A6B0B"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AB5C3507AD2048A5A8CFDB1A81471F18"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B686F887D8BA4F29A48162AD6C9C097D"
             {
             "Name" = "8:DesignerProtect"
             "Arguments" = "8:"
@@ -837,8 +845,8 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2E509EEA8CB140EA844005E6E547D441"
-            "Folder" = "8:_9BB73A4847D7445DA7139686E0A36ACF"
+            "Target" = "8:_976EEBD23A2B4B26B3FC3BF037D757EC"
+            "Folder" = "8:_0B5FC07572724341831F76909620FDCD"
             "WorkingFolder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"
             "Icon" = "8:_ACE400981F6B4C1F87DA71652B8A6B0B"
             "Feature" = "8:"
@@ -1242,9 +1250,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2E509EEA8CB140EA844005E6E547D441"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_976EEBD23A2B4B26B3FC3BF037D757EC"
             {
-            "SourcePath" = "8:..\\PhotoShopBackUpC\\obj\\Debug\\DesignerProtect.exe"
+            "SourcePath" = "8:..\\DesignerProtect\\obj\\Debug\\DesignerProtect.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E88B93DEF07E45E18FC3127704CCBEBD"

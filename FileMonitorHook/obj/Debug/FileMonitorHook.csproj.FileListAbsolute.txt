@@ -1,0 +1,19 @@
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook32.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook32Svc.exe
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook64.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook64Svc.exe
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyLoad32.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyLoad64.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\FileMonitorHook.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\FileMonitorHook.pdb
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\bin\Debug\EasyHook.xml
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\obj\Debug\FileMonitorHook.csprojResolveAssemblyReference.cache
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\obj\Debug\FileMonitorHook.dll
+C:\work\c#PhotoShop\EasyHook-Tutorials-master\Managed\RemoteFileMonitor\FileMonitorHook\obj\Debug\FileMonitorHook.pdb
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Debug\FileMonitorHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Debug\FileMonitorHook.pdb
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Debug\EasyHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Debug\EasyHook.xml
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Debug\FileMonitorHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Debug\FileMonitorHook.pdb

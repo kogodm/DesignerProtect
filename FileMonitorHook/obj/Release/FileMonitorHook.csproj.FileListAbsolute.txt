@@ -1,0 +1,6 @@
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Release\FileMonitorHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Release\FileMonitorHook.pdb
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Release\EasyHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Release\EasyHook.xml
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Release\FileMonitorHook.dll
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Release\FileMonitorHook.pdb
