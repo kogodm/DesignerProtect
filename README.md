@@ -10,7 +10,7 @@ auto save photoshop,sai,sa2 editing files,only save *.psd file
     - <Ps安装目录>\TypeLibrary.tlb
     - <Ps安装目录>\Required\Plug-Ins\Extensions\ScriptingSupport.8li
 
-#sai && sai2
+# sai && sai2部分
 - 利用Process.GetProcessesByName获取进程号
 - 使用EsayHook库Hook sai和sai2的一下WinApi调用
 	 - MoveFileA
