@@ -136,6 +136,7 @@ namespace PhotoShopBackUpC
             Logger.Close();
             _photoShopLisener.Stop();
             _saiLisener.Stop();
+            e.Cancel = true;
         }
 
         private void button1_Click(object sender, EventArgs e)

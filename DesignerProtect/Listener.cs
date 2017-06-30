@@ -19,6 +19,14 @@ namespace PhotoShopBackUpC
             {
                 Directory.CreateDirectory(path);
             }
+            if (!Directory.Exists(path+"/ps"))
+            {
+                Directory.CreateDirectory(path + "/ps");
+            }
+            if (!Directory.Exists(path + "/sai"))
+            {
+                Directory.CreateDirectory(path + "/sai");
+            }
         }
 
         protected Process[] FindProcess(string name)

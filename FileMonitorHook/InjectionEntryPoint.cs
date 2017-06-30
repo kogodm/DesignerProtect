@@ -27,6 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using EasyHook;
 
 namespace FileMonitorHook
@@ -137,7 +138,7 @@ namespace FileMonitorHook
 //                readFileHook.ThreadACL.SetExclusiveACL(new Int32[] { 0 });
 //                writeFileHook.ThreadACL.SetExclusiveACL(new Int32[] { 0 });
 
-                _server.ReportMessage("MoveFileW hooks installed");
+                _server.ReportMessage("MoveFileW hooks installed" + Thread.CurrentThread.ManagedThreadId);
                 EasyHook.RemoteHooking.WakeUpProcess();
                 try
                 {
@@ -177,6 +178,7 @@ namespace FileMonitorHook
                 {
                     // Ping() or ReportMessages() will raise an exception if host is unreachable
                 }
+                _server.ReportMessage("MoveFileW hooks Removed");
 
                 // Remove hooks
                 createFileHook.Dispose();

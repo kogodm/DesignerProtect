@@ -153,7 +153,7 @@ namespace PhotoShopBackUpC
 
         public void CopyFile(string src,string dstName)
         {
-            string backUpfile = path + dstName + "_backup.psd";
+            string backUpfile = path + "/sai/" + dstName + "_sai_backup.psd";
             _fileOperater.Copy(src, backUpfile);
         }
     

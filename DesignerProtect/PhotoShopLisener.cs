@@ -72,7 +72,7 @@ namespace PhotoShopBackUpC
                 var doc = app.Documents[i + 1];
                 if (doc.Name.EndsWith("psd"))
                 {
-                    string backUpfile = path + doc.Name + "_backup.psd";
+                    string backUpfile = path +"/ps/"+doc.Name + "_ps_backup.psd";
                     if (doc.Saved)
                     {
                         _fileOperater.Copy(doc.FullName, backUpfile);

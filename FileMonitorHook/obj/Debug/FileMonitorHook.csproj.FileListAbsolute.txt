@@ -17,3 +17,4 @@ C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonito
 C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\bin\Debug\EasyHook.xml
 C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Debug\FileMonitorHook.dll
 C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Debug\FileMonitorHook.pdb
+C:\Users\kogod\Documents\Visual Studio 2017\Projects\PhotoShopBackUpC\FileMonitorHook\obj\Debug\FileMonitorHook.csprojResolveAssemblyReference.cache
