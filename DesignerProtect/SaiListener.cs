@@ -6,7 +6,7 @@ using FileMonitorHook;
 
 namespace PhotoShopBackUpC
 {
-    public class SaiListener:Listener
+    public class SaiListener : Listener
     {
 
         class SaiMessage
@@ -151,18 +151,18 @@ namespace PhotoShopBackUpC
             }
         }
 
-        public void CopyFile(string src,string dstName)
+        public void CopyFile(string src, string dstName)
         {
             string backUpfile = path + "/sai/" + dstName + "_sai_backup.psd";
             _fileOperater.Copy(src, backUpfile);
         }
-    
+
         public override void Save()
         {
             Check();
             Logger.Log("Send save message");
             //todo:click save
-            if(sai.Id > 0) SendSaveMessageToProcess(sai.systemProcess.MainWindowHandle);
+            if (sai.Id > 0) SendSaveMessageToProcess(sai.systemProcess.MainWindowHandle);
             if (sai2.Id > 0) SendSaveMessageToProcess(sai2.systemProcess.MainWindowHandle);
         }
 
@@ -184,19 +184,34 @@ namespace PhotoShopBackUpC
         public override string GetRunInfo()
         {
             _info = "Sai:";
-            if (sai.Id < 0) _info += "没有打开." ;
+            if (sai.Id < 0) _info += "没有打开.";
             else foreach (var saiFile in sai.files)
-            {
-                _info += "\n" + saiFile;
-            }
+                {
+                    string name = saiFile;
+                    if (name.Length >= 60)
+                    {
+                        int remain = name.Length - 60;
+                        name = name.Remove(30, remain);
+                        name = name.Insert(30, "...");
+                    }
+                    _info += "\n" + name;
+                }
             _info += "\nSai2:";
             if (sai2.Id < 0) _info += "没有打开.";
-            else foreach (var saiFile in sai2.files)
-            {
-                _info += "\n" + saiFile;
-            }
-//            _info += sai.errorInfo+"\n";
-//            _info += sai2.errorInfo+ "\n";
+            else
+                foreach (var saiFile in sai2.files)
+                {
+                    string name = saiFile;
+                    if (name.Length >= 60)
+                    {
+                        int remain = name.Length - 60;
+                        name = name.Remove(30, remain);
+                        name = name.Insert(30, "...");
+                    }
+                    _info += "\n" + name;
+                }
+            //            _info += sai.errorInfo+"\n";
+            //            _info += sai2.errorInfo+ "\n";
             return _info;
         }
 

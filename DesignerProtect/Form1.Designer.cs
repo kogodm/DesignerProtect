@@ -1,4 +1,6 @@
-﻿namespace PhotoShopBackUpC
+﻿using System.Drawing;
+
+namespace PhotoShopBackUpC
 {
     partial class Form1
     {
@@ -45,19 +47,20 @@
             this.label5 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(19, 31);
+            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(3, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 24);
+            this.label1.Size = new System.Drawing.Size(380, 322);
             this.label1.TabIndex = 0;
-            this.label1.Text = "1.测试文件.psd\r\n2.下一个测试文件.psd\r\n";
+            this.label1.Text = "1.测试文件.psd\r\n2.下一个测试文件.\r\n012345678901234567890123456789012345678901234567890123456" +
+    "789012345678901234567890123456789\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer1
             // 
@@ -99,14 +102,15 @@
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(462, 10);
+            this.button1.Location = new System.Drawing.Point(462, 330);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
             this.button1.Text = "最小化";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // notifyIcon1
@@ -142,14 +146,15 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.DimGray;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(462, 39);
+            this.button2.Location = new System.Drawing.Point(377, 330);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
             this.button2.Text = "打开";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // timer2
@@ -160,7 +165,8 @@
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.Location = new System.Drawing.Point(454, 104);
+            this.label5.BackColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(460, 36);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 21);
             this.label5.TabIndex = 0;
@@ -175,10 +181,9 @@
             this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.maskedTextBox1.ForeColor = System.Drawing.Color.Lime;
             this.maskedTextBox1.InsertKeyMode = System.Windows.Forms.InsertKeyMode.Overwrite;
-            this.maskedTextBox1.Location = new System.Drawing.Point(462, 68);
-            this.maskedTextBox1.Mask = "90时90分90秒";
+            this.maskedTextBox1.Location = new System.Drawing.Point(462, 12);
+            this.maskedTextBox1.Mask = "99时99分99秒";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.PromptChar = '0';
             this.maskedTextBox1.Size = new System.Drawing.Size(75, 21);
             this.maskedTextBox1.TabIndex = 7;
             this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -189,47 +194,39 @@
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.Location = new System.Drawing.Point(389, 68);
+            this.label6.Location = new System.Drawing.Point(389, 10);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(67, 21);
             this.label6.TabIndex = 8;
             this.label6.Text = "保存间隔:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(549, 378);
-            this.panel1.TabIndex = 9;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.button1;
             this.ClientSize = new System.Drawing.Size(549, 378);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.maskedTextBox1);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Lime;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "PhotoShop备份";
+            this.TransparencyKey = this.BackColor;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AddList_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AddList_MouseMove);
@@ -256,7 +253,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel panel1;
     }
 }
 

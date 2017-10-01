@@ -21,6 +21,8 @@ namespace PhotoShopBackUpC
         private int intervalMinute = 5;
         private int intervalSecond = 0;
 
+        public Form parent;
+       
         public Form1()
         {
             InitializeComponent();
@@ -36,15 +38,23 @@ namespace PhotoShopBackUpC
             label5.Location = new Point(label5.Location.X,maskedTextBox1.Location.Y);
             label5.Text = $@"{intervalHour:D2}时{intervalMinute:D2}分{intervalSecond:D2}秒";
             maskedTextBox1.Text = $@"{intervalHour:D2}时{intervalMinute:D2}分{intervalSecond:D2}秒";
-            this.panel1.Enabled = false;
+//            this.panel1.Enabled = false;
             this.ActiveControl = null;
+            //            label1.BackColor = Color.FromArgb(50, 125, 125, 125);
+            //            WindowState = FormWindowState.Maximized;
 
-            Console.WriteLine("Hello");
+            //            Screen.PrimaryScreen.Bounds
+
+//            int iActulaWidth = Screen.PrimaryScreen.Bounds.Width;
+//
+//            int iActulaHeight = Screen.PrimaryScreen.Bounds.Height;
+//            this.Size = new Size(iActulaWidth, iActulaHeight);
+//            TopMost = true;
+//            label7.Location = label1.Location;
         }
 
         private string backUpPath = "c:/BackUpForPSD/";
         private string windowsPath = "c:\\BackUpForPSD";
-        private string _infoString = "";
         bool TrySave()
         {
             try
@@ -55,7 +65,7 @@ namespace PhotoShopBackUpC
             }
             catch (Exception e)
             {
-                Debug.WriteLine("Exception "+e.Message);
+                Logger.Log("Exception "+e.Message);
                 return false;
             }
         }
@@ -92,10 +102,15 @@ namespace PhotoShopBackUpC
                             }
                         }
                         Thread.Sleep(3000);
+                        Logger.Log("Thread running. " + needAbort);
+
                     }
+                    Logger.Log("Thread end.");
                 });
                 trySaveThread.Name = "BackUpForPsAndSai(And Sai2)";
                 trySaveThread.Start();
+                Logger.Log("Thread start. " + needAbort);
+
             }
         }
 
@@ -132,16 +147,12 @@ namespace PhotoShopBackUpC
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            needAbort = true;
-            Logger.Close();
-            _photoShopLisener.Stop();
-            _saiLisener.Stop();
-            e.Cancel = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
            this.Hide();
+           this.parent.Hide();
            hided = true;
         }
 
@@ -167,11 +178,13 @@ namespace PhotoShopBackUpC
             if (hided)
             {
                 this.Show();
+                this.parent.Show();
                 hided = false;
             }
             else
             {
                 this.Hide();
+                this.parent.Hide();
                 hided = true;
             }
         }
@@ -180,6 +193,10 @@ namespace PhotoShopBackUpC
         {
             notifyIcon1.Dispose();
             needAbort = true;
+            Logger.Close();
+            _photoShopLisener.Stop();
+            _saiLisener.Stop();
+
             Application.Exit();
         }
 
@@ -188,10 +205,6 @@ namespace PhotoShopBackUpC
             Process.Start("explorer.exe", windowsPath);
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            ControlPaint.DrawBorder(e.Graphics, this.panel1.ClientRectangle, Color.Blue, ButtonBorderStyle.Solid);
-        }
 
         private void panel1_Resize(object sender, EventArgs e)
         {
@@ -285,6 +298,18 @@ namespace PhotoShopBackUpC
             {
                 this.ActiveControl = null;
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+//            TranslucentTB.Translucent.TrueOn(new string[0]);
+
+//            TranslucentTB.T.EnableBlur();
         }
     }
 }

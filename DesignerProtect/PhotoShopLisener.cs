@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 using Photoshop;
 
@@ -21,21 +22,36 @@ namespace PhotoShopBackUpC
                 if (Id > 0)
                 {
                     _infoString = "PhotoShop:\n";
-                    app = new ApplicationClass();
-                    int c = app.Documents.Count;
-                    for (int i = 0; i < c; i++)
+                    try
                     {
-                        var doc = app.Documents[i + 1];
-                        if (doc.Name.EndsWith("psd"))
+                        app = new ApplicationClass();
+                        int c = app.Documents.Count;
+                        for (int i = 0; i < c; i++)
                         {
-                            _infoString += i + "." + doc.Name + "\n";
+                            var doc = app.Documents[i + 1];
+                            if (doc.Name.EndsWith("psd"))
+                            {
+                                string name =doc.Name;
+                                if (name.Length >= 60)
+                                {
+                                    int remain = name.Length - 60;
+                                    name = name.Remove(30, remain);
+                                    name = name.Insert(30, "...");
+                                }
+                                _infoString += i + "." + name + "\n";
+                            }
                         }
                     }
+                    catch (Exception ex)
+                    {
+                        Logger.Log(ex.Message + "\n" + ex.StackTrace);
+                        _infoString = "PhotoShop:Busy\n";
+                    }
                 }
-                else
-                {
-                    _infoString = "PhotoShop:没打开.";
-                }
+            }
+            else
+            {
+                _infoString = "PhotoShop:没有打开.";
             }
         }
         public bool CheckProcessChanged()
@@ -50,6 +66,7 @@ namespace PhotoShopBackUpC
                     Id = tPId;
                     return true;
                 }
+                return true;
             }
             else Id = -1;
             return false;
@@ -66,23 +83,32 @@ namespace PhotoShopBackUpC
             {
                 return;
             }
-            int c = app.Documents.Count;
-            for (int i = 0; i < c; i++)
+            try
             {
-                var doc = app.Documents[i + 1];
-                if (doc.Name.EndsWith("psd"))
+                int c = app.Documents.Count;
+                for (int i = 0; i < c; i++)
                 {
-                    string backUpfile = path +"/ps/"+doc.Name + "_ps_backup.psd";
-                    if (doc.Saved)
+                    var doc = app.Documents[i + 1];
+                    if (doc.Name.EndsWith("psd"))
                     {
-                        _fileOperater.Copy(doc.FullName, backUpfile);
-                        continue;
+                        string backUpfile = path + "/ps/" + doc.Name + "_ps_backup.psd";
+                        if (doc.Saved)
+                        {
+                            _fileOperater.Copy(doc.FullName, backUpfile);
+                            continue;
+                        }
+                        PhotoshopSaveOptions psdSaveOptions = new PhotoshopSaveOptions
+                        {
+                            EmbedColorProfile = true,
+                            AlphaChannels = true
+                        };
+                        doc.SaveAs(backUpfile, psdSaveOptions, true, PsExtensionType.psLowercase);
                     }
-                    PhotoshopSaveOptions psdSaveOptions = new PhotoshopSaveOptions();
-                    psdSaveOptions.EmbedColorProfile = true;
-                    psdSaveOptions.AlphaChannels = true;
-                    doc.SaveAs(backUpfile, psdSaveOptions, true, PsExtensionType.psLowercase);
                 }
+            }
+            catch (Exception ex)
+            {
+                Logger.Log(ex.Message + "\n" + ex.StackTrace);
             }
         }
 
